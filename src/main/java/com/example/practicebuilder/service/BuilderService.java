@@ -1,8 +1,8 @@
 package com.example.practicebuilder.service;
 
-import com.example.practicebuilder.dto.UserInfo;
+import com.example.practicebuilder.dto.User;
 
 public interface BuilderService {
 
-    UserInfo getData(String fin);
+    User getData(String fin);
 }

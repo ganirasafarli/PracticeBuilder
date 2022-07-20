@@ -1,6 +1,6 @@
 package com.example.practicebuilder.controller;
 
-import com.example.practicebuilder.dto.UserInfo;
+import com.example.practicebuilder.dto.User;
 import com.example.practicebuilder.service.BuilderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +17,7 @@ public class BuilderController {
     private final BuilderService builderService;
 
     @GetMapping("/improvement/{fin}")
-    public ResponseEntity<UserInfo> getData(@PathVariable String fin) {
+    public ResponseEntity<User> getData(@PathVariable String fin) {
         return ResponseEntity.ok(builderService.getData(fin));
     }
 }
