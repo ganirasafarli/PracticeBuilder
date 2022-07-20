@@ -20,6 +20,10 @@ public class User {
         this.fatherName = builder.fatherName;
         this.company = builder.company;
         this.position = builder.position;
+        this.fin = builder.fin;
+        this.annualIncome = builder.annualIncome;
+        this.tax = builder.tax;
+        this.bonus = builder.bonus;
     }
 
     @Override

@@ -14,7 +14,7 @@ public class BuilderServiceImpl implements BuilderService {
                 .position("Kiçik proqramçı")
                 .fin("123ABC")
                 .company("Cybernet MMC")
-                .bonus(1000.0 * 3 / 100)
+                .bonus((1000.0 * 3) / 100)
                 .tax(1000.0 * 5 / 100)
                 .build();
         return user1;
