@@ -19,5 +19,4 @@ public class BuilderServiceImpl implements BuilderService {
                 .build();
         return user1;
     }
-
 }
